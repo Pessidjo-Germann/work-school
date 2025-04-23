@@ -1,0 +1,28 @@
+- Created lib/screen/home_page.dart: Basic structure for the home screen.
+- Created lib/widget/home_app_bar.dart: Custom AppBar for the home screen.
+- Created lib/widget/search_bar_widget.dart: Search input field widget.
+- Added SearchBarWidget to HomePage.
+- Created lib/widget/promo_banner_widget.dart: Promotional banner widget.
+- Added PromoBannerWidget to HomePage.
+- Created lib/widget/category_filter_widget.dart: Horizontal list of category chips.
+- Added CategoryFilterWidget to HomePage.
+- Created lib/widget/new_arrival_header_widget.dart: Header for the "New Arrival" section.
+- Added NewArrivalHeaderWidget to HomePage.
+- Created lib/widget/product_card_widget.dart: Card widget for displaying a single product.
+- Created lib/widget/product_grid_widget.dart: Grid view to display product cards.
+- Added ProductGridWidget to HomePage.
+- Created lib/widget/bottom_nav_bar_widget.dart: Bottom navigation bar widget.
+- Added BottomNavBarWidget to HomePage.
+- Created lib/screen/watch_details_page.dart: Screen for displaying watch details.
+- Created lib/widget/details_app_bar.dart: Custom AppBar for the watch details screen.
+- Added DetailsAppBar to WatchDetailsPage.
+- Created lib/widget/watch_image_viewer_widget.dart: Widget to display main watch image with page indicator.
+- Added WatchImageViewerWidget to WatchDetailsPage.
+- Created lib/widget/watch_thumbnail_selector_widget.dart: Horizontal list of watch color/style thumbnails.
+- Added WatchThumbnailSelectorWidget to WatchDetailsPage.
+- Created lib/widget/watch_info_widget.dart: Widget displaying watch title and description.
+- Added WatchInfoWidget to WatchDetailsPage.
+- Created lib/widget/size_selector_widget.dart: Widget for selecting watch size.
+- Added SizeSelectorWidget to WatchDetailsPage.
+- Created lib/widget/details_bottom_action_bar.dart: Bottom action bar with price and 'Buy Now' button.
+- Added DetailsBottomActionBar to WatchDetailsPage.
