@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import '../widget/category_filter_widget.dart';
-import 'package:flutter/material.dart';
+import '../widget/api_product_grid_widget.dart';
 import '../widget/bottom_nav_bar_widget.dart';
 import '../widget/category_filter_widget.dart';
 import '../widget/home_app_bar.dart';
@@ -26,7 +25,31 @@ class HomePage extends StatelessWidget {
               PromoBannerWidget(),
               CategoryFilterWidget(),
               NewArrivalHeaderWidget(),
+              // Produits locaux existants
               ProductGridWidget(),
+              // Séparateur
+              Container(
+                margin: const EdgeInsets.symmetric(vertical: 20),
+                child: const Divider(thickness: 2),
+              ),
+              // Titre pour les produits de l'API
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 16.0),
+                child: Row(
+                  children: [
+                    Text(
+                      'Produits depuis l\'API',
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 10),
+              // Produits de l'API
+              ApiProductGridWidget(),
             ],
           ),
         ),

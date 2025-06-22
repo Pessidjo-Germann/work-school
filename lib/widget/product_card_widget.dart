@@ -32,7 +32,7 @@ class ProductCardWidget extends StatelessWidget {
                     const BorderRadius.vertical(top: Radius.circular(15.0)),
                 child: Image.asset(
                   imagePath,
-                  height: 150, // Augmentation de la hauteur de l'image
+                  height: 150,  
                   width: double.infinity,
                   fit: BoxFit.contain,
                 ),
@@ -50,7 +50,7 @@ class ProductCardWidget extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: const EdgeInsets.all(12.0), // Augmentation du padding
+          padding: const EdgeInsets.all(12.0),  
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -90,14 +90,14 @@ class ProductCardWidget extends StatelessWidget {
                         decoration: BoxDecoration(
                           color: Colors.black87,
                           borderRadius: BorderRadius.circular(
-                              20.0), // Coins plus arrondis
+                              20.0),  
                         ),
                         child: Text(
                           price,
                           style: const TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
-                              fontSize: 16), // Prix légèrement plus grand
+                              fontSize: 16),  
                         ),
                       ),
                     ),
